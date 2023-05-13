@@ -1,107 +1,69 @@
-/* General styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #f5f5f5;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.logo {
-  width: 30%;
-  max-width: 200px;
-  margin-right: 20px;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #ff69b4;
-}
-
-/* Menu styles */
-.menu-section {
-  margin-bottom: 40px;
-}
-
-.section-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #ff69b4;
-  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9d9e6;
+  color: #e60073;
   text-align: center;
+}
+
+header {
+  background-color: #e60073;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.menu-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
 }
 
 .menu-item {
-  margin-bottom: 20px;
-  padding: 10px;
   background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
-.item-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #444;
-  margin-bottom: 10px;
+.menu-item h3 {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.item-description {
-  font-size: 1rem;
+.price {
   font-weight: normal;
-  color: #666;
 }
 
-/* Instagram styles */
-.instagram {
-  margin-top: 30px;
-  text-align: center;
+.follow-us {
+  margin: 30px 0;
+  font-size: 24px;
 }
 
-.instagram-icon {
-  display: inline-block;
-  width: 50px;
+.follow-us a img {
   height: 50px;
-  background-color: #ff69b4;
-  border-radius: 50%;
-  padding: 10px;
-  margin-right: 10px;
-  transition: all 0.3s;
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
-.instagram-icon:hover {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.blink {
+  animation: blinker 0.6s linear infinite;
 }
 
-.instagram-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.instagram-text {
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #444;
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
