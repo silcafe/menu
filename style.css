@@ -43,6 +43,13 @@ li {
 	margin-bottom: 5vh;
 }
 
+p-title {
+	color: #d61f60;
+	margin-bottom: 3vh;
+	font-size: 3vw;
+	font-weight: bold;
+}
+
 p {
 	color: pink;
 	margin-bottom: 3vh;
