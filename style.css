@@ -1,0 +1,61 @@
+/* Add your styles here */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo img {
+	height: 80px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #333;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.social-media {
+	display: flex;
+}
+
+.social-media a {
+	margin-left: 10px;
+}
+
+.social-media i {
+	color: #333;
+	font-size: 24px;
+}
+
+main {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
