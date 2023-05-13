@@ -1,76 +1,99 @@
-/* Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Font styles */
 body {
-  font-family: Roboto, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-/* Container styles */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
 }
 
-/* Logo styles */
-.logo-container {
-  margin-bottom: 2rem;
+.logo {
+	text-align: center;
 }
 
-/* Menu styles */
-.menu-header {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+.logo img {
+	max-width: 100%;
+}
+
+.social-media {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.social-media a {
+	display: inline-block;
+	margin-right: 10px;
+	color: #333;
+	font-size: 24px;
+}
+
+.social-media a:hover {
+	color: #f00;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .menu-item {
-  margin-bottom: 2rem;
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaa;
+	text-align: left;
+	display: none;
 }
 
 .menu-item h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+	margin-top: 0;
 }
 
-.menu-item p {
-  font-size: 1.2rem;
+.menu-item ul {
+	padding-left: 20px;
+	margin-bottom: 0;
 }
 
-/* Follow us styles */
-.follow-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 1rem;
+.menu-item li {
+	list-style: none;
+	margin-bottom: 10px;
 }
 
-.follow-text {
-  font-size: 1.2rem;
-  margin-right: 1rem;
-  animation: blink 1s infinite;
+.follow-us {
+	text-align: center;
+	animation: blink 2s infinite;
 }
 
-/* Instagram icon styles */
-.follow-container img {
-  width: 2rem;
-  height: 2rem;
-  cursor: pointer;
-}
-
-/* Animation styles */
 @keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity:
-  }
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
