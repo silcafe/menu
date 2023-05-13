@@ -2,6 +2,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	color: #d71e5f;
 }
 
 header {
@@ -9,10 +10,12 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px;
+	color: #d71e5f;
 }
 
 .logo img {
-	height: 80px;
+	height: 120px;
+	align-items: center;
 }
 
 .social-media {
@@ -24,7 +27,7 @@ header {
 }
 
 .social-media i {
-	color: #333;
+	color: #d71e5f;
 	font-size: 24px;
 }
 
