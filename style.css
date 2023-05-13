@@ -1,49 +1,48 @@
-/* Add your styles here */
 body {
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
-	color: #d71e5f;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	background-color: #333;
+	color: #fff;
 	padding: 20px;
-	color: #d71e5f;
+}
+
+.logo {
+	text-align: center;
 }
 
 .logo img {
-	height: 120px;
-	align-items: center;
+	max-width: 100%;
 }
 
 .social-media {
-	display: flex;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .social-media a {
-	margin-left: 10px;
-}
-
-.social-media i {
-	color: #d71e5f;
+	display: inline-block;
+	margin-right: 10px;
+	color: #333;
 	font-size: 24px;
 }
 
-.social-media a:hover i {
-	color: #777;
+.social-media a:hover {
+	color: #f00;
 }
 
 main {
-	max-width: 800px;
-	margin: 50px auto;
-	padding: 0 20px;
+	padding: 20px;
+	text-align: center;
 }
 
 h1 {
 	font-size: 36px;
-	margin-bottom: 20px;
+	margin-top: 0;
 }
 
 p {
@@ -51,13 +50,50 @@ p {
 	margin-bottom: 20px;
 }
 
-.menu-item {
-	margin-bottom: 50px;
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-h2 {
-	font-size: 24px;
+.menu-item {
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaa;
+	text-align: left;
+	display: none;
+}
+
+.menu-item h2 {
+	margin-top: 0;
+}
+
+.menu-item ul {
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+.menu-item li {
+	list-style: none;
 	margin-bottom: 10px;
 }
 
-ul {
+.follow-us {
+	text-align: center;
+	animation: blink 2s infinite;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
