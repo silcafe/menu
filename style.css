@@ -1,99 +1,72 @@
-body {
-	font-family: 'Roboto', sans-serif;
+* {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffcc00;
+	height: 100px;
 }
 
 .logo {
-	text-align: center;
-}
-
-.logo img {
-	max-width: 100%;
-}
-
-.social-media {
-	text-align: center;
-	margin-top: 30px;
-}
-
-.social-media a {
-	display: inline-block;
-	margin-right: 10px;
-	color: #333;
-	font-size: 24px;
-}
-
-.social-media a:hover {
-	color: #f00;
+	height: 80%;
 }
 
 main {
-	padding: 20px;
-	text-align: center;
-}
-
-h1 {
-	font-size: 36px;
-	margin-top: 0;
-}
-
-p {
-	font-size: 18px;
-	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	background-color: #f2f2f2;
 }
 
 .menu {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	justify-content: center;
 }
 
 .menu-item {
 	width: 300px;
 	margin: 20px;
-	padding: 20px;
-	background-color: #f0f0f0;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px #aaa;
-	text-align: left;
-	display: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
-.menu-item h2 {
-	margin-top: 0;
+.menu-item:hover {
+	box-shadow: 0 0 5px #ccc;
 }
 
-.menu-item ul {
-	padding-left: 20px;
-	margin-bottom: 0;
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffcc00;
+	height: 100px;
 }
 
-.menu-item li {
-	list-style: none;
-	margin-bottom: 10px;
+.social-text {
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 20px;
 }
 
-.follow-us {
-	text-align: center;
-	animation: blink 2s infinite;
+.social-icon {
+	height: 60%;
+	margin: 0 10px;
+	transition: all 0.3s ease;
 }
 
-@keyframes blink {
-	0% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+.social-icon:hover {
+	transform: scale(1.2);
 }
