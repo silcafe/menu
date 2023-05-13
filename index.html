@@ -1,63 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Restaurant Menu</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<link rel="stylesheet" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('.menu-item').hide();
-			$('.menu-item').each(function(i) {
-				$(this).delay(i * 200).fadeIn(1000);
-			});
-		});
-	</script>
-</head>
-<body>
-	<header>
-		<div class="logo">
-			<img src="logo.png" alt="Restaurant Logo">
-		</div>
-		<div class="social-media">
-			<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-			<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-		</div>
-	</header>
-	<main>
-		<h1>Welcome to our Restaurant!</h1>
-		<p>Check out our delicious menu below:</p>
-		<div class="menu">
-			<div class="menu-item">
-				<h2>Appetizers</h2>
-				<ul>
-					<li>Bruschetta - $8</li>
-					<li>Caprese Salad - $10</li>
-					<li>Calamari - $12</li>
-				</ul>
-			</div>
-			<div class="menu-item">
-					<h2>Main Courses</h2>
-					<ul>
-						<li>Spaghetti Bolognese - $15</li>
-						<li>Lasagna - $18</li>
-						<li>Chicken Parmesan - $20</li>
-					</ul>
-			</div>
-			<div class="menu-item">
-				<h2>Desserts</h2>
-				<ul>
-					<li>Tiramisu - $8</li>
-					<li>Cannoli - $6</li>
-					<li>Gelato - $7</li>
-				</ul>
-			</div>
-		</div>
-	</main>
-	<footer>
-		<p>&copy; 2023 Restaurant. All rights reserved.</p>
-	</footer>
-</body>
+  <head>
+    <title>My Restaurant Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="https://via.placeholder.com/150x50" alt="Restaurant Logo">
+      </div>
+    </header>
+
+    <main>
+      <h1>Our Menu</h1>
+      <p>Click on an item to view its details.</p>
+      <div class="menu">
+        <div class="menu-item">
+          <h2>Item 1</h2>
+          <ul>
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+            <li>Ingredient 3</li>
+          </ul>
+        </div>
+
+        <div class="menu-item">
+          <h2>Item 2</h2>
+          <ul>
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+            <li>Ingredient 3</li>
+          </ul>
+        </div>
+
+        <div class="menu-item">
+          <h2>Item 3</h2>
+          <ul>
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+            <li>Ingredient 3</li>
+          </ul>
+        </div>
+
+        <div class="menu-item">
+          <h2>Item 4</h2>
+          <ul>
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+            <li>Ingredient 3</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="follow-us">
+        Follow us on social media!
+        <div class="social-media">
+          <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
