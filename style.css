@@ -1,69 +1,71 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9d9e6;
-  color: #e60073;
-  text-align: center;
+  margin: 0;
 }
 
 header {
-  background-color: #e60073;
-  padding: 20px;
-  color: #fff;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: pink;
+  color: white;
 }
 
-.logo img {
-  max-width: 200px;
+header img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section {
+  flex-basis: calc(50% - 40px);
+  margin: 20px;
+  border: 1px solid pink;
+  padding: 20px;
 }
 
 h2 {
-  margin-top: 30px;
-}
-
-.menu-items-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
+  color: pink;
 }
 
 .menu-item {
-  background-color: #fff;
-  padding: 20px;
-  margin: 10px;
-  width: 300px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  margin-bottom: 20px;
 }
 
 .menu-item h3 {
   margin: 0;
+}
+
+footer {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: pink;
+  color: white;
 }
 
-.price {
-  font-weight: normal;
+footer p {
+  margin: 0;
 }
 
-.follow-us {
-  margin: 30px 0;
-  font-size: 24px;
-}
-
-.follow-us a img {
-  height: 50px;
-  margin-left: 10px;
+footer img {
+  height: 30px;
+  margin-right: 10px;
   vertical-align: middle;
 }
 
 .blink {
-  animation: blinker 0.6s linear infinite;
+  animation: blinker 0.8s linear infinite;
 }
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
