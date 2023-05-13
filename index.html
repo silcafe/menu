@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Restaurant Menu</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="Restaurant Logo">
-    </div>
-  </header>
-  <main>
-    <section class="appetizers">
-      <h2>Appetizers</h2>
-      <div class="menu-items-container">
-        <!-- Menu items will be dynamically generated from the appetizers.csv file -->
-      </div>
-    </section>
-    <section class="entrees">
-      <h2>Entrees</h2>
-      <div class="menu-items-container">
-        <!-- Menu items will be dynamically generated from the entrees.csv file -->
-      </div>
-    </section>
-    <section class="desserts">
-      <h2>Desserts</h2>
-      <div class="menu-items-container">
-        <!-- Menu items will be dynamically generated from the desserts.csv file -->
-      </div>
-    </section>
-    <section class="drinks">
-      <h2>Drinks</h2>
-      <div class="menu-items-container">
-        <!-- Menu items will be dynamically generated from the drinks.csv file -->
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p class="follow-us">Follow us on Instagram <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram Icon"></a></p>
-  </footer>
-  <script src="script.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo">
+      <h1>Restaurant Name</h1>
+    </header>
+    
+    <main>
+      <section id="appetizers">
+        <h2>Appetizers</h2>
+        <div class="menu-container"></div>
+      </section>
+
+      <section id="entrees">
+        <h2>Entrees</h2>
+        <div class="menu-container"></div>
+      </section>
+
+      <section id="desserts">
+        <h2>Desserts</h2>
+        <div class="menu-container"></div>
+      </section>
+
+      <section id="drinks">
+        <h2>Drinks</h2>
+        <div class="menu-container"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p><img src="images/instagram-icon.png" alt="Instagram Icon">Follow us on Instagram</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
