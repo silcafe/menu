@@ -1,71 +1,118 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  background-color: pink;
-  color: white;
+	background-color: #FFC0CB;
+	padding: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-header img {
-  max-width: 100%;
-  max-height: 100%;
-  margin-right: 20px;
+img {
+	width: 50vw;
+	max-width: 300px;
+	margin-bottom: 5vh;
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
+	padding: 5vh;
 }
 
 section {
-  flex-basis: calc(50% - 40px);
-  margin: 20px;
-  border: 1px solid pink;
-  padding: 20px;
+	margin-bottom: 10vh;
 }
 
 h2 {
-  color: pink;
+  color: rgb(212, 41, 69);
+	margin-bottom: 3vh;
+	font-size: 4vw;
 }
 
-.menu-item {
-  margin-bottom: 20px;
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
 }
 
-.menu-item h3 {
-  margin: 0;
+li {
+	margin-bottom: 5vh;
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  background-color: pink;
-  color: white;
+p {
+	color: rgb(240, 133, 150);
+	margin-bottom: 3vh;
+	font-size: 3vw;
 }
 
-footer p {
-  margin: 0;
+.item-title {
+	font-weight: bold;
+	font-size: 4vw;
 }
 
-footer img {
-  height: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
+.item-desc {
+	font-size: 3vw;
 }
 
 .blink {
-  animation: blinker 0.8s linear infinite;
+	animation: blinker 1s linear infinite;
 }
 
-@keyframes blinker {  
-  50% { opacity: 0; }
+.instagram {
+	display: inline-block;
+	height: 3vh;
+	width: 3vh;
+	background-image: url('instagram.png');
+	background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+	img {
+		width: 80vw;
+	}
+
+	h2 {
+		font-size: 6vw;
+	}
+
+	.item-title {
+		font-size: 5vw;
+	}
+
+	.item-desc {
+		font-size: 4vw;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	h2 {
+		font-size: 8vw;
+	}
+
+	.item-title {
+		font-size: 6vw;
+	}
+
+	.item-desc {
+		font-size: 5vw;
+	}
+}
+
+@media only screen and (max-width: 240px) {
+	h2 {
+		font-size: 10vw;
+	}
+
+	.item-title {
+		font-size: 8vw;
+	}
+
+	.item-desc {
+		font-size: 7vw;
+	}
 }
