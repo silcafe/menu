@@ -18,23 +18,21 @@ const drinksContainer = document.querySelector('.drinks .menu-items-container');
 appendMenuItems(drinks, drinksContainer);
 
 // Function to load menu items from CSV file
-function loadMenuItems(file) {
+async function loadMenuItems(file) {
+  const response = await fetch(file);
+  const data = await response.text();
   const items = [];
 
-  fetch(file)
-    .then(response => response.text())
-    .then(data => {
-      const rows = data.split('\n');
-      const headers = rows[0].split(',');
-      for (let i = 1; i < rows.length; i++) {
-        const itemData = rows[i].split(',');
-        const item = {};
-        for (let j = 0; j < headers.length; j++) {
-          item[headers[j]] = itemData[j];
-        }
-        items.push(item);
-      }
-    });
+  const rows = data.split('\n');
+  const headers = rows[0].split(',');
+  for (let i = 1; i < rows.length; i++) {
+    const itemData = rows[i].split(',');
+    const item = {};
+    for (let j = 0; j < headers.length; j++) {
+      item[headers[j]] = itemData[j];
+    }
+    items.push(item);
+  }
 
   return items;
 }
