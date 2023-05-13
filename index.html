@@ -3,19 +3,21 @@
 <head>
 	<title>Restaurant Menu</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.menu-item').hide();
+			$('.menu-item').each(function(i) {
+				$(this).delay(i * 200).fadeIn(1000);
+			});
+		});
+	</script>
 </head>
 <body>
 	<header>
 		<div class="logo">
 			<img src="logo.png" alt="Restaurant Logo">
 		</div>
-		<nav>
-			<ul>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
 		<div class="social-media">
 			<a href="#"><i class="fab fa-facebook"></i></a>
 			<a href="#"><i class="fab fa-twitter"></i></a>
@@ -25,7 +27,32 @@
 	<main>
 		<h1>Welcome to our Restaurant!</h1>
 		<p>Check out our delicious menu below:</p>
-		<!-- Add your menu items here -->
+		<div class="menu">
+			<div class="menu-item">
+				<h2>Appetizers</h2>
+				<ul>
+					<li>Bruschetta - $8</li>
+					<li>Caprese Salad - $10</li>
+					<li>Calamari - $12</li>
+				</ul>
+			</div>
+			<div class="menu-item">
+				<h2>Main Courses</h2>
+				<ul>
+					<li>Spaghetti Bolognese - $15</li>
+						<li>Lasagna - $18</li>
+					<li>Chicken Parmesan - $20</li>
+				</ul>
+			</div>
+			<div class="menu-item">
+				<h2>Desserts</h2>
+				<ul>
+					<li>Tiramisu - $8</li>
+					<li>Cannoli - $6</li>
+					<li>Gelato - $7</li>
+				</ul>
+			</div>
+		</div>
 	</main>
 	<footer>
 		<p>&copy; 2023 Restaurant. All rights reserved.</p>
