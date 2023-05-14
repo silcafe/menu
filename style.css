@@ -42,50 +42,53 @@ h2 {
   font-family: 'DM Serif Display', serif;
   color: rgb(212, 41, 69);
 	margin-bottom: 3vh;
-	font-size: 8vw;
+	font-size: 9vw;
 }
 
 h2b {
   font-family: 'DM Serif Display', serif;
   color: rgb(212, 41, 69);
 	margin-bottom: 3vh;
-	font-size: 8vw;
+	font-size: 9vw;
   font-weight: bold;
 }
 
 h3 {
   color: #d41f5f;
 	margin-bottom: 3vh;
-	font-size: 4vw;
+	font-size: 5vw;
   font-weight: bold;
+  font-family: 'Roboto';
 }
 
 p {
   color: #6b6b6b;
-	margin-bottom: 0.2vh;
-	font-size: 4vw;
+	margin-bottom: 0.1vh;
+	font-size: 5vw;
+	font-family: 'Roboto';
 }
 
 pb {
   color: #6b6b6b;
-	margin-bottom: 0.2vh;
-	font-size: 4vw;
+	font-size: 5vw;
   font-weight: bold;
+  font-family: 'Roboto';
 }
 
 p1 {
 	color: rgb(147, 147, 147);
 	margin-bottom: 0.2vh;
-	font-size: 3vw;
+	font-size: 4vw;
+	font-family: 'Roboto';
 }
 
 .item-title {
 	font-weight: bold;
-	font-size: 4vw;
+	font-size: 5vw;
 }
 
 .item-desc {
-	font-size: 3vw;
+	font-size: 4vw;
 }
 
 .blink {
@@ -107,7 +110,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	font-family: Arial, sans-serif;
-	font-size: 3.5vw;
+	font-size: 4.5vw;
 	color: #666;
   }
   
