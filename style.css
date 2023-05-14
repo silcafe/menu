@@ -2,11 +2,10 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: 'Roboto';
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
-	background-color: #FFC0CB;
 	padding: 5vh;
 	display: flex;
 	justify-content: center;
@@ -14,9 +13,9 @@ header {
 }
 
 img {
-	width: 50vw;
+	width: 100vw;
 	max-width: 300px;
-	margin-bottom: 5vh;
+	margin-bottom: 0.5vh;
 }
 
 main {
@@ -35,13 +34,14 @@ ul {
 }
 
 li {
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 }
 
 h2 {
   font-family: 'DM Serif Display', serif;
   color: rgb(212, 41, 69);
-	margin-bottom: 3vh;
+	margin-bottom: 5vh;
+	padding-bottom: 20px;
 	font-size: 9vw;
 }
 
@@ -56,30 +56,27 @@ h2b {
 h3 {
   color: #d41f5f;
 	margin-bottom: 3vh;
+	padding-top: 15px;
 	font-size: 5vw;
   font-weight: bold;
-  font-family: 'Roboto';
 }
 
 p {
   color: #6b6b6b;
 	margin-bottom: 0.1vh;
 	font-size: 5vw;
-	font-family: 'Roboto';
 }
 
 pb {
   color: #6b6b6b;
 	font-size: 5vw;
   font-weight: bold;
-  font-family: 'Roboto';
 }
 
 p1 {
 	color: rgb(147, 147, 147);
 	margin-bottom: 0.2vh;
 	font-size: 4vw;
-	font-family: 'Roboto';
 }
 
 .item-title {
@@ -125,7 +122,6 @@ footer {
 	width: 24px;
 	height: 24px;
 	margin-right: 10px;
-	margin-top: 20px;
 	animation: blink 1s linear infinite;
   }
   
