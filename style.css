@@ -13,9 +13,9 @@ header {
 }
 
 img {
-	width: 100vw;
+	width: 150vw;
 	max-width: 300px;
-	margin-bottom: 0.5vh;
+	margin-bottom: 0.3vh;
 }
 
 main {
@@ -138,4 +138,4 @@ footer {
   footer a:hover {
 	text-decoration: underline;
   }
-  
+ 
