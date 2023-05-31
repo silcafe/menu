@@ -34,14 +34,15 @@ header {
   }
   
   .language-buttons img {
-	width: 35px; /* Adjust the width as needed */
-	height: 35px; /* Adjust the height as needed */
+	width: 45px; /* Adjust the width as needed */
+	height: 45px; /* Adjust the height as needed */
   }
 
-img {
+.logo-container img {
 	width: 150vw;
 	max-width: 300px;
 	margin-bottom: 0.3vh;
+	display: flex;
 }
 
 main {
