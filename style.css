@@ -24,7 +24,8 @@ header {
 .language-buttons {
 	display: flex;
 	align-items: center;
-	gap: 10px;
+	justify-content: center;
+	gap: 20px;
   }
   
   .language-buttons a {
@@ -33,8 +34,8 @@ header {
   }
   
   .language-buttons img {
-	width: 10px; /* Adjust the width as needed */
-	height: 10px; /* Adjust the height as needed */
+	width: 35px; /* Adjust the width as needed */
+	height: 35px; /* Adjust the height as needed */
   }
 
 img {
