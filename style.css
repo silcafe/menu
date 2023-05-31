@@ -13,10 +13,20 @@ header {
 }
 
 .language-buttons {
-	justify-content: center;
+	display: flex;
 	align-items: center;
-	max-width: 50vw;
-}
+	gap: 10px;
+  }
+  
+  .language-buttons a {
+	display: flex;
+	align-items: center;
+  }
+  
+  .language-buttons img {
+	width: 10px; /* Adjust the width as needed */
+	height: 10px; /* Adjust the height as needed */
+  }
 
 img {
 	width: 150vw;
