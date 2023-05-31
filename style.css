@@ -12,6 +12,15 @@ header {
 	align-items: center;
 }
 
+.logo-container {
+	margin-top: 10px;
+  }
+  
+.logo-container img {
+	display: block;
+	margin: 0 auto;
+}
+
 .language-buttons {
 	display: flex;
 	align-items: center;
