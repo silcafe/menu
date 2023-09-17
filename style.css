@@ -11,11 +11,12 @@ header {
 }
 
 #google_translate_element {
+	justify-content: center;
 	max-width: 25%;
 }
   
 .logo-container img {
-	max-width: 50%;
+	max-width: 75%;
 	margin-bottom: 0.3vh;
 }
 
