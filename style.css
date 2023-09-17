@@ -11,8 +11,8 @@ header {
 }
 
 #google_translate_element {
+	display: flex;
 	justify-content: center;
-	max-width: 25%;
 }
   
 .logo-container img {
