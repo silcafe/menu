@@ -6,40 +6,12 @@ body {
 }
 
 header {
-	padding: 5vh;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
-.logo-container {
-	margin-top: 10px;
-  }
   
 .logo-container img {
-	display: block;
-	margin: 0 auto;
-}
-
-.language-buttons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 20px;
-  }
-  
-  .language-buttons a {
-	display: flex;
-	align-items: center;
-  }
-  
-  .language-buttons img {
-	width: 45px; /* Adjust the width as needed */
-	height: 45px; /* Adjust the height as needed */
-  }
-
-.logo-container img {
-	width: 150vw;
+	width: 400vw;
 	max-width: 300px;
 	margin-bottom: 0.3vh;
 	display: flex;
@@ -69,7 +41,7 @@ h2 {
   color: rgb(212, 41, 69);
 	margin-bottom: 5vh;
 	padding-bottom: 20px;
-	font-size: 9vw;
+	font-size: 10vw;
 }
 
 h2b {
@@ -121,8 +93,8 @@ p1 {
 
 .instagram {
 	display: inline-block;
-	height: 3vh;
-	width: 3vh;
+	height: 5vh;
+	width: 5vh;
 	background-image: url('instagram.png');
 	background-size: cover;
 }
