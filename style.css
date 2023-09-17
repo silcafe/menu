@@ -9,10 +9,14 @@ header {
 	justify-content: center;
 	align-items: center;
 }
+
+#firstname {
+	width: 100vw;
+}
   
 .logo-container img {
 	width: 400vw;
-	max-width: 300px;
+	max-width: 600;
 	margin-bottom: 0.3vh;
 	display: flex;
 }
