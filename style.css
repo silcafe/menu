@@ -11,14 +11,12 @@ header {
 }
 
 #google_translate_element {
-	width: 100vw;
+	max-width: 150;
 }
   
 .logo-container img {
-	width: 400vw;
-	max-width: 600;
+	max-width: 350px;
 	margin-bottom: 0.3vh;
-	display: flex;
 }
 
 main {
