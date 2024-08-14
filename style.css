@@ -47,6 +47,14 @@ h2 {
 	font-size: 10vw;
 }
 
+h3 {
+	font-family: 'DM Serif Display', serif;
+	color: rgb(212, 41, 69);
+	  margin-bottom: 10vh;
+	  padding-bottom: 20px;
+	  font-size: 20vw;
+  }
+
 h2b {
   font-family: 'DM Serif Display', serif;
   color: rgb(212, 41, 69);
